@@ -1,0 +1,1 @@
+setTimeout(function(){try{(function(){if(typeof jQuery!='function'){return!1}jQuery('.echbay-alo-phone a, .echbay-sms-messenger a').click(function(){if(typeof ga!='undefined'){ga('send','event','Phonering ('+(jQuery(this).attr('href')||'')+' '+document.domain+')','Click',document.title)}})}())}catch(e){console.log('stack: '+(e.stackTrace||e.stack))}},3000)
