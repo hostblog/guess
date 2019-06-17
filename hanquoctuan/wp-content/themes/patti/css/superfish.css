@@ -1,0 +1,18 @@
+.sf-menu, .sf-menu *{margin:0;padding:0;list-style:none;}
+.sf-menu li{position:relative;}
+.sf-menu ul{position:absolute;display:none;top:100%;left:10px;z-index:99;}
+.sf-menu ul ul{padding-top:0 !important;}
+.sf-menu > li{float:left;}
+.sf-menu li:hover > ul,
+.sf-menu li.sfHover > ul{display:block;}
+.sf-menu a{display:block;position:relative;}
+.sf-menu ul ul{top:0;left:100%;}
+.sf-menu{float:left;}
+.sf-menu ul{padding-top:25px;}
+.sf-menu a{text-decoration:none;zoom:1;}
+.sf-menu a{}
+.sf-menu li{-webkit-transition:background .2s;transition:background .2s;}
+.sf-menu ul li{}
+.sf-menu ul ul li{}
+.sf-menu li:hover,
+.sf-menu li.sfHover{-webkit-transition:none;transition:none;}
