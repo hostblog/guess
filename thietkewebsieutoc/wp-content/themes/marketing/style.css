@@ -1,0 +1,137 @@
+/*
+Theme Name: Marketing
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+@font-face {
+
+    font-family: 'utm_avo';
+    src: url('fonts/UTM Avo.eot');
+    src: local('Ã¢ËœÂº'), url('fonts/UTM Avo.woff') format('woff'),
+                     url('fonts/UTM Avo.ttf') format('truetype'),
+                     url('fonts/UTM Avo.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UTMAvoBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('UTMAvoBold'), url('fonts/utm-avobold.woff') format('woff');
+}
+body, p, a, .section-title-main, h1, h2, h3, h4, h5, h6, .sidebar-menu .nav-sidebar li a {
+    font-family: 'utm_avo' !important;
+}
+.section-lua-chon ul.fa-ul li {
+	margin-bottom: 26px;
+}
+.section-tin-tuc .post-item{
+	padding-bottom:0px;
+}
+#recent-posts-2,#tag_cloud-2{
+	padding-left: 0px;
+	padding-right:0px;
+}
+#recent-posts-2 li a{
+	font-size: 14px;
+}
+.dark .is-divider{
+	    background-color: rgb(42, 160, 239);
+}
+.product-title a{
+	color: #0083C7;
+}
+a.button-header{
+	font-weight: normal !important;
+    padding: 8px 7px!important;
+    background-color: #1daf00!important;
+    color: white!important;
+    font-size: 15px!important;
+    border-radius: 3px;
+}
+a.button-header i{
+	padding-right: 10px;
+}
+.title-home{
+	    color: #0071bb!important;
+	    text-transform: uppercase;
+	    font-size: 25px;
+}
+.section-footer ul{
+	margin-left: 0px;
+}
+.div-no-padding{
+	padding-bottom: 0px !important;
+}
+.gioi-thieu-dau-trang .row .col{padding: 0px}
+.gioi-thieu-dau-trang .row .col p{margin: 0}
+body{line-height: 1.8em; font-size: 16px; color: gray}
+.line-ngang{background: linear-gradient(45deg,#c33764,#1d2671);}
+.line-ngang h3{margin-bottom: 0}
+.line-ngang .row .col{padding:0}
+.can-gi .row2{background:white; border-top-left-radius: 10px;  border-top-right-radius: 10px;     border: 1px solid #dedede;}
+.thiet-lap-he-thong{margin-top: -30px;}
+input[type='email'], input[type='search'], input[type='number'], input[type='url'], input[type='tel'], input[type='text'], textarea{font-size: 15px}
+.nav-dropdown.nav-dropdown-default>li>a{font-size: 15px}
+.nav-dropdown-default{padding:0}
+.nav-dropdown{    border: 1px solid #c3c3c3;}
+.pricing-table .items>div{padding: 2px 0;    border-bottom: 1px dotted #d6d6d6;}
+.pricing-table .items{    padding: 10px 30px;}
+.pricing-table-items span{color: #444444; font-size: 15px}
+.pricing-table-items{padding: 10px 20px;}
+
+.pricing-table .title{    text-transform: none;
+    background-color: rgb(66, 66, 66);
+    letter-spacing: 0; 
+    color: white; line-height: 30px
+}
+.mau-web .row .col{padding: 0 15px 10px;}
+b, strong {
+    font-weight: bold !important;
+}
+.single-product .div-danh-muc{
+	display: none;
+}
+.box-category .count{
+	display: none;
+}
+.product-title{
+	font-weight: bold;
+}
+
+span.amount{
+	color: red;
+}
+section.line-ngang{
+	padding-left:20px !important;
+	padding-right:20px !important;
+}
+div.tab-panels div.row{
+	margin-left:0px !important;
+	margin-right: 0px !important
+}
+@media(max-width: 850px){
+	.section-slide .banner{
+		    padding-top: 181px !important;
+	}
+	.text-banner h2{
+		    font-size: 21px;
+    line-height: 28px
+	}
+	.text-banner{
+	padding:0px 10px;
+}
+.text-banner ul{
+	display: none;
+}
+}
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
