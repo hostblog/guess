@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="640px" viewBox="0 0 10 640" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>grad-line</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="6229.62428%" gradientTransform="translate(0.500000,0.000000),scale(1.000000,0.015625),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-1">
+            <stop stop-color="#FFCB66" offset="0%"></stop>
+            <stop stop-color="#B1762D" offset="52.2880382%"></stop>
+            <stop stop-color="#AB7029" offset="55.4168172%"></stop>
+            <stop stop-color="#AE742B" offset="62%"></stop>
+            <stop stop-color="#B87F33" offset="67.2981395%"></stop>
+            <stop stop-color="#CA913F" offset="73%"></stop>
+            <stop stop-color="#E1AB50" offset="78%"></stop>
+            <stop stop-color="#FFCB66" offset="83%"></stop>
+            <stop stop-color="#CD963D" offset="92%"></stop>
+            <stop stop-color="#AB7029" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Intro" transform="translate(-717.000000, 0.000000)" fill="url(#radialGradient-1)">
+            <rect id="grad-line" x="717" y="0" width="10" height="640"></rect>
+        </g>
+    </g>
+</svg>
