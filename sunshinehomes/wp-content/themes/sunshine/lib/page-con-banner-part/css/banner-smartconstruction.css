@@ -1,0 +1,62 @@
+.banner-smartconstruction a {
+  color: inherit;
+  transition: 0.3s ease;
+}
+.banner-smartconstruction a:hover {
+  color: #1D69A5;
+}
+.banner-smartconstruction img {
+  width: 100%;
+}
+.banner-smartconstruction h3 {
+  font-size: 15px;
+  font-weight: bold;
+}
+.banner-smartconstruction__page-banner {
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+}
+.banner-smartconstruction__banner-image {
+  width: 100%;
+}
+.banner-smartconstruction__banner-text {
+  position: absolute;
+  bottom: 4%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+.banner-smartconstruction__breadcrumb {
+  font-size: 1.25rem;
+  justify-content: center;
+  display: flex;
+}
+.banner-smartconstruction__o-h1 {
+  font-size: 35px;
+}
+@media (max-width: 639px) {
+  .banner-smartconstruction__page-banner {
+    padding-top: 100px;
+  }
+  .banner-smartconstruction__banner-img-wrapper {
+    position: relative;
+  }
+  .banner-smartconstruction__banner-img-wrapper .img-cover {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 60%;
+    bottom: 0;
+    background: linear-gradient(0.29deg, #000000 -3.43%, rgba(25, 25, 25, 0) 91.61%);
+  }
+  .banner-smartconstruction__breadcrumb {
+    font-size: 14px;
+  }
+  .banner-smartconstruction__o-h1 {
+    font-size: 25px;
+  }
+}
+
+/*# sourceMappingURL=banner-smartconstruction.css.map */

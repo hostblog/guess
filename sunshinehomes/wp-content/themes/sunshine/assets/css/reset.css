@@ -1,0 +1,126 @@
+/* Variable */
+body {
+  color: #2B2B2B;
+  font-family: SVN-Gotham, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.55;
+  overflow-x: hidden;
+  word-wrap: break-word;
+}
+
+body.admin-bar .menu-mobile {
+  top: 32px;
+}
+
+a {
+  color: #365899;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  -moz-transition: .3s ease;
+  transition: .3s ease;
+}
+
+a:hover {
+  color: #4c2603;
+  text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  image-rendering: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #393939;
+  font-family: SVN-Avo, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  line-height: 1.55;
+  margin: 0 0 15px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.55em;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+h4 {
+  font-size: 1.1em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+  font-size: .83em;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+big {
+  font-size: 125%;
+}
+
+dd {
+  margin-bottom: 24px;
+}
+
+ul,
+ol {
+  margin: 0 0 15px;
+  padding-left: 20px;
+}
+
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+  margin: 0 0 15px;
+}
+
+ul {
+  list-style: disc;
+}
+
+ol {
+  list-style: decimal;
+}
+
+li > ul,
+li > ol {
+  margin-bottom: 0;
+}
+
+caption {
+  padding: 10px;
+}
+
+ins {
+  background: #eee;
+  text-decoration: none;
+}
+
+iframe {
+  max-width: 100%;
+}

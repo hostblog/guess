@@ -1,0 +1,245 @@
+.single-smartconstruction a {
+  color: inherit;
+  transition: 0.3s ease;
+}
+.single-smartconstruction a:hover {
+  color: #1D69A5;
+}
+.single-smartconstruction h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.single-smartconstruction .col-md-6,
+.single-smartconstruction .col-sm-12,
+.single-smartconstruction .col-12,
+.single-smartconstruction .col-lg-6 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.single-smartconstruction .row {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.single-smartconstruction__page-content {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 90px 0 80px 0;
+}
+@media (max-width: 639px) {
+  .single-smartconstruction__page-banner {
+    padding-top: 100px;
+  }
+  .single-smartconstruction__breadcrumb {
+    font-size: 14px;
+  }
+  .single-smartconstruction__o-h1 {
+    font-size: 25px;
+  }
+  .single-smartconstruction__page-content {
+    max-width: 100%;
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 55px;
+  }
+}
+
+.single-post-wrapper {
+  padding-bottom: 50px;
+  border-bottom: 1px solid #C4C4C4;
+}
+.single-post-wrapper .post-date {
+  font-weight: bold;
+  font-size: 15px;
+  padding-bottom: 0px;
+}
+.single-post-wrapper .post-title {
+  font-weight: bold;
+  padding-bottom: 30px;
+  margin-bottom: 0;
+  font-size: 1.875rem;
+}
+.single-post-wrapper .post-excerpt {
+  font-weight: bold;
+}
+@media (max-width: 639px) {
+  .single-post-wrapper .post-date {
+    color: #D6D6D6;
+    font-weight: normal;
+    padding-bottom: 5px;
+  }
+  .single-post-wrapper .post-title {
+    font-size: 20px;
+  }
+}
+
+.bai-viet-khac-title {
+  padding-top: 55px;
+  font-weight: bold;
+  font-size: 1.875rem;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+}
+@media (max-width: 639px) {
+  .bai-viet-khac-title {
+    padding-top: 50px;
+    font-size: 25px;
+  }
+}
+
+.post-inner {
+  position: relative;
+}
+
+.post-date {
+  padding-bottom: 15px;
+  font-size: 15px;
+}
+
+.post-img {
+  position: relative;
+  padding-bottom: 30px;
+}
+.post-img__cover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+  background: linear-gradient(358.6deg, rgba(43, 43, 43, 0.7) 15.51%, rgba(43, 43, 43, 0) 44.63%);
+}
+.post-img img {
+  transition: 0.4s;
+}
+.post-img img:hover {
+  transform: scale(1.05);
+}
+@media (max-width: 639px) {
+  .post-img {
+    padding-bottom: 15px;
+  }
+}
+
+.post-title {
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+@media (max-width: 639px) {
+  .post-title {
+    padding-bottom: 15px;
+  }
+}
+
+.slick-list {
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.slick-slide {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+@media (max-width: 639px) {
+  .slick-current a {
+    color: #1D69A5;
+  }
+}
+
+.slick-dots {
+  margin: 40px 0 0 0;
+  padding: 0;
+  position: static;
+  text-align: center;
+  width: 100%;
+  line-height: 0;
+}
+.slick-dots li {
+  border: 1px solid #082441;
+  border-radius: 100%;
+  display: inline-block;
+  font-size: 0;
+  height: 15px;
+  opacity: 1;
+  outline: none;
+  text-align: center;
+  transition: 0.3s ease;
+  vertical-align: top;
+  width: 15px;
+  cursor: pointer;
+}
+.slick-dots li:not(:last-child) {
+  margin-right: 20px;
+}
+.slick-dots .slick-active,
+.slick-dots li:hover {
+  background: #082441;
+}
+
+.slick-slide:hover {
+  cursor: grab;
+}
+
+.o-slider-btn-next {
+  width: 45px;
+  height: 45px;
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../img/next2.jpg");
+}
+.o-slider-btn-next:focus {
+  outline: none;
+}
+
+.o-slider-btn-prev {
+  width: 45px;
+  height: 45px;
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../img/prev2.jpg");
+}
+.o-slider-btn-prev:focus {
+  outline: none;
+}
+
+.l-slider-btn-next {
+  position: absolute;
+  z-index: 20;
+  right: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+@media (max-width: 639px) {
+  .l-slider-btn-next {
+    top: 25vw;
+    transform: unset;
+    right: -20px;
+  }
+}
+
+.l-slider-btn-prev {
+  position: absolute;
+  z-index: 20;
+  left: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+@media (max-width: 639px) {
+  .l-slider-btn-prev {
+    top: 25vw;
+    transform: unset;
+    left: -20px;
+  }
+}
+
+/*# sourceMappingURL=single-smartconstruction.css.map */

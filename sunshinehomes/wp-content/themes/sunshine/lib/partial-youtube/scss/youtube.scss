@@ -1,0 +1,169 @@
+//hạn chế tối đa sửa vào file này
+//nếu cần đè css thì viết vào chỗ khác với trọng số lớn hơn
+@import '../../../assets/sass/core/variables';
+$orange: white;
+
+
+
+.u-display-none {
+    display: none !important;
+}
+
+.group-youtube {
+    position: absolute;
+    top: 0;
+    left: 0;
+    // bottom: unset;
+    // height: 100vh;
+    bottom: 0;
+    right: 0;
+
+    .background {
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        transition: opacity 1s;
+        pointer-events: none;
+    }
+
+    @media (max-width: 991px) {
+        max-width: 100%;
+    }
+}
+
+.js-video-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+
+    @media (max-width: 639px) {
+        top: 50vw;
+    }
+}
+
+.video {
+    opacity: 0;
+    transition: opacity 1s;
+    // position: relative;
+    // margin-top: 4vw;
+    // margin-left: 8.33vw;
+    // margin-right: 8.33vw;
+
+    position: absolute;
+    left: 8.33vw;
+    right: 8.33vw;
+    bottom: 0;
+
+    z-index: -10;
+    padding-bottom: 50px;
+    height: 51vw;
+
+
+    @media (max-width: 639px) {
+        bottom: unset;
+        height: unset;
+        top: 50vw;
+        left: 0;
+        right: 0;
+    }
+}
+
+.o-play {
+    cursor: pointer;
+    width: 64px;
+    height: 64px;
+}
+
+.video-controller {
+    height: 50px;
+    background-color: #4C2602;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+
+    display: flex;
+    align-items: center;
+
+    .play-state {
+        padding-left: 30px;
+        padding-right: 20px;
+        border-right: 1px solid #643A13;
+        margin-right: 20px;
+    }
+
+    .pause {
+        color: white;
+        font-size: 20px;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .play {
+        width: 13px;
+        height: 19px;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .sound-on {
+        width: 18px;
+        height: 18px;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .muted {
+        width: 21px;
+        height: 15px;
+        display: inline-block;
+        cursor: pointer;
+    }
+}
+
+.js-img {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 36px;
+    height: 36px;
+    z-index: 2;
+}
+
+.video-cover {
+    position: absolute;
+    top: 0;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+
+    &.youtube-paused {
+        background-color: black;
+    }
+}
+
+.group-youtube.active {
+
+    .js-video-btn,
+    .row-content {
+        display: none;
+    }
+
+    .video {
+        opacity: 1;
+        z-index: 10;
+
+    }
+
+    .background {
+        opacity: 1;
+    }
+}

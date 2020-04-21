@@ -1,0 +1,434 @@
+@import '../../../assets/sass/core/variables';
+$second-color2: #4C2602;
+
+
+
+.o-language {
+    // border-bottom: 1px solid rgba(white, 0.3);
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.language-chooser {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid rgba(white, 0.3);
+    margin: 0;
+
+    li {
+        padding: 0 15px;
+    }
+
+    li:first-child {
+        border-right: 1px solid rgba(white, 0.3);
+    }
+
+    .active {
+        color: $link-color;
+    }
+}
+
+.qtranxs-lang-menu {
+    &.nav-item.nav-link {
+        padding-top: 0;
+    }
+
+    span {
+        display: none;
+    }
+
+    ul.sub-menu {
+        border-bottom: none;
+        padding-left: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.admin-bar {
+    .header {
+        .header-sticky.on-top {
+            top: 32px;
+        }
+    }
+
+    .page-single-du-an .page-tab.on-top {
+        top: 32px;
+    }
+}
+
+.on-top .navbar-brand img {
+    max-width: 80%;
+}
+
+.header {
+    background: transparent;
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    width: 100%;
+    z-index: 8979;
+    padding-top: 10px;
+
+    a {
+        color: inherit;
+
+        &:hover {
+            color: $link-color;
+        }
+    }
+
+    .header-sticky {
+        position: static;
+        margin-top: -10px;
+        transition: .4s ease;
+
+        &.show {
+            top: -100%;
+
+            &.on-top {
+                background: $main-color;
+                left: 0;
+                padding-bottom: 0;
+                padding-top: 0;
+                position: fixed;
+                right: 0;
+                top: 0;
+                z-index: 999999;
+
+                .header-main-inner {
+                    padding: 0;
+                }
+
+                .header-main-menu ul.nav-menu>li,
+                .header-logo {
+                    height: 65px;
+                }
+
+                .header-logo {
+                    img {
+                        width: 125px;
+                    }
+                }
+
+
+            }
+        }
+    }
+
+    .header-main {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+
+        img {
+            margin-left: auto;
+
+        }
+    }
+
+    .logo-wrapper {
+        position: absolute;
+        width: 100%;
+        padding-left: 4vw;
+    }
+
+    .navbar {
+        color: white;
+        font-family: $body-font;
+        font-size: 15px;
+        line-height: 141.3%;
+        /* or 21px */
+        text-align: justify;
+        text-transform: uppercase;
+
+        position: absolute;
+        right: 0;
+        top: 0;
+        white-space: nowrap;
+        padding-top: 0;
+        padding-bottom: 0;
+
+
+        .navbar-toggler {
+            position: absolute;
+            right: 20px;
+            top: 0;
+        }
+
+        .navbar-toggler-icon {
+            background-image: url('../img/icon-close.png');
+        }
+
+        .navbar-collapse {
+            padding-left: 2vw;
+            padding-right: 1.5vw;
+            padding-top: 100px;
+            background-color: rgba($second-color2, 0.9);
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 300px;
+            height: 100vh;
+            transform: translateX(300px);
+            transition: 0.3s;
+
+            &.show {
+                transform: unset;
+            }
+        }
+    }
+
+    .navbar-brand {
+        max-width: 10%;
+        padding: 0;
+        margin-right: 0;
+    }
+
+    .sub-menu {
+        li {
+            display: inline-block;
+        }
+
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+        .qtranxs-lang-menu-item-vi {
+            border-bottom: none !important;
+        }
+    }
+}
+
+.show-navbar {
+    position: absolute;
+    right: 50px;
+    top: 30px;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border: none;
+
+    &:focus {
+        outline: none;
+    }
+
+    .navbar-toggler-icon {
+        background-image: url(../img/navbar-btn-heritage-resort.jpg);
+        background-image: url(../img/navbar-btn.png);
+        width: 100%;
+        height: 100%;
+        background-size: unset;
+    }
+}
+
+.collapse:not(.show) {
+    display: block;
+}
+
+.nav-item.nav-link {
+    padding: 25px 10px 10px 10px;
+
+    &:not(:last-of-type) {
+
+        border-bottom: 1px solid rgba(white, 0.3);
+    }
+}
+
+.box-contact-bottom {
+
+    @media (max-width: 639px) {
+
+
+        bottom: 0;
+        left: 0;
+        position: fixed;
+        right: 0;
+        z-index: 9549;
+        background: linear-gradient(180deg, #98693C 0%, #3A1D01 100%);
+
+        a {
+            color: white;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            position: relative;
+            z-index: 10;
+            display: flex;
+        }
+
+        &>ul>li {
+            background: transparent;
+            height: 42px;
+            line-height: 42px;
+            list-style-type: none;
+            border-top: 1px solid $second-color2;
+            border-bottom: 1px solid $second-color2;
+            flex-grow: 1;
+            flex-shrink: 1;
+            flex-basis: 100%;
+
+            &:hover {
+                cursor: pointer;
+                background-color: $second-color;
+            }
+        }
+
+        &>ul>li:not(:last-child) {
+            border-right: 1px solid $second-color2;
+        }
+
+        &>ul>li>a {
+            display: block;
+            padding: 0 5px;
+            text-align: center;
+        }
+
+        .navbar-toggler {
+            height: unset;
+        }
+
+        .navbar-toggler-icon {
+            background-image: url(../img/kebab.png);
+            height: 1em;
+        }
+
+        .row-bg {
+            height: 100%;
+        }
+
+        //style cho favicon
+        i.fa {
+            font-size: 23px;
+            margin-top: 10px;
+        }
+
+        //end of style cho favicon
+    }
+}
+
+
+@media screen and (max-width: 1199px) {
+    .header {
+        .logo-wrapper {
+            padding-left: 7.5%;
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .header {
+        padding-top: 10px;
+
+        .logo-wrapper {
+            padding-left: 5.5%;
+        }
+
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+
+        overflow: visible;
+        padding-top: 0;
+
+        .header-main {
+            padding: 10px;
+        }
+    }
+}
+
+@media (max-width: 639px) {
+    .l-header-img {
+        top: 0;
+        max-width: 100%;
+        max-height: 100px;
+    }
+
+    .header {
+
+        .navbar-brand {
+            width: 36%;
+            max-width: unset;
+            text-align: center;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .language-chooser {
+            list-style-type: none;
+            text-align: center;
+            padding: 0;
+
+            .active {
+                display: none;
+            }
+
+            li:first-child {
+                border: none;
+            }
+        }
+
+        .logo-wrapper {
+            padding: 0;
+            margin: 0;
+            top: 0;
+            left: 0;
+            background-image: url('../img/header.jpg');
+            background-size: cover;
+        }
+
+        .navbar {
+            left: 0;
+            right: unset;
+            padding: 0;
+
+            .navbar-toggler {
+                height: unset;
+                top: 10px;
+            }
+        }
+
+        .navbar .navbar-collapse {
+            height: calc(100vh - 42px);
+            width: 100vw;
+            transition: 0.5s;
+            transform: unset;
+            right: unset;
+            top: unset;
+            bottom: 42px;
+            position: fixed;
+            transform: translateX(-100vw);
+            padding-left: 10vw;
+            padding-right: 10vw;
+
+            &.show {
+                transform: unset;
+            }
+        }
+
+        .navbar-nav {
+            height: 80%;
+        }
+
+        .navbar .navbar-toggler-icon--x {
+            background-image: url(../img/icon-close.png);
+        }
+
+    }
+}
+
+
+.show-navbar .navbar-toggler-icon.youtube-playing {
+    background-image: url(../img/navbar-btn.png);
+    background-size: unset;
+}
