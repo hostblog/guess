@@ -1,0 +1,1 @@
+No Content: https://bavitech.com/wp-admin/admin-ajax.php

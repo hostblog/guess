@@ -1,0 +1,106 @@
+/*
+    Theme Name: BestBuild - Child Theme
+    Theme URI: http://bestbuild.stylemixthemes.com/
+    Author: StylemixThemes
+    Author URI: http://stylemixthemes.com/
+    Description: BestBuild | Construction, Building and Architecture WordPress Theme is a corporate theme designed and developed particularly for Construction, Building and Architecture companies or those with similar services. We built this theme on Visual Composer, a very convenient drag-n-drop PageBuilder for WordPress. It should provide you with the smoothest experience while creating your website with our theme.
+    Version: 1.0
+    License: GNU General Public License v2 or later
+    License URI: http://www.gnu.org/licenses/gpl-2.0.html
+    Tags: Construction, building, architecture, business, construct, construction theme, build, WordPress, visual composer, architect, portfolio, services, projects, erection, preconstruction, general contracting
+    Text Domain: bestbuild-child
+    Template: bestbuild
+
+    This theme, like WordPress, is licensed under the GPL.
+    Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* Add your own styles here */
+
+.top_nav .top_nav_wrapper{
+    background: #006CB6; /* user define */
+}
+.top_nav .top_nav_wrapper > ul > li ul li:hover > a,
+.top_nav .top_nav_wrapper > ul > li ul li.current-menu-item > a,
+.top_nav .main_menu_nav > ul > li ul li:hover > a,
+.top_nav .main_menu_nav > ul > li ul li.current-menu-item > a
+{
+    background:#6699CC; /* # user define */
+    color: #fff;
+}
+
+.top_nav .icon_text{
+    float: right;
+    padding: 0 0 0 35px;
+    margin: 18px 20px 0 0; /* user define */
+	
+}
+.top_nav .icon_text:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin: -17px 0 0 0;
+    border-left: 1px solid #6699CC; /* user define */
+    height: 27px;
+}
+
+.entry-header{
+	background-image: url(https://bavitech.com/wp-content/uploads/header_bg.jpg) !important; 
+	background-repeat: repeat;
+}
+
+.entry-header .entry-title .h2 {
+	color: #fff !important;
+}
+
+.entry-header .entry-title .h2::before {
+    background: #FB1922;
+
+}
+.breadcrumbs a, .breadcrumbs a:hover {
+    color: #CACACA !important;
+}
+
+.breadcrumbs .current, .breadcrumbs .separator {
+   color: #CACACA !important;
+}
+
+.wpb_content_element ul li {
+    margin-bottom:5px !important;
+}
+.widget.widget_services ul li {
+    margin-bottom:20px !important;
+}
+
+.stm_staff p {
+	margin: 0 0 5px;
+	padding-left: 15px;
+    font-size: 14px;
+}
+.stm_staff p:before {
+    content: "\f054";
+    position: absolute;
+	left: 2px;
+	padding-top: 4px;
+    display: inline-block;
+    vertical-align: top;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 10px;
+    color: #fb1922;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}
+.slick_prev {
+    left: -60px !important;
+}
+.slick_next {
+    right: -60px !important;
+}
+
+
+.woocommerce-loop-category__title {
+	font-size: 20px !important;
+}
