@@ -1,0 +1,55 @@
+.holder {
+    margin: 5px 0;
+    display:  inline-block;
+}
+
+.holder a {
+    font-size: 13px;
+    cursor: pointer;
+    margin: 0 5px;
+    color: #555;
+    float: left;
+    text-align: center;
+    background: #ebebeb;
+    border: 1px solid #555;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+}
+.jp-current
+{
+    width: 24px;
+    height: 24px;
+    background: #ebebeb ;
+       display: inline-block;
+    text-align: center;
+    line-height: 25px;
+}
+.holder a:hover {
+
+}
+
+.holder a.jp-previous { margin-right: 5px;     vertical-align: -8px;}
+.holder a.jp-next {    margin-left: 5px;
+    background: url(../images/t_next_13.png)no-repeat center !important;    vertical-align: -8px;background-color: #f2f2f2 !important;}
+
+.holder a.jp-current, a.jp-current:hover {
+	    background: #555;
+	    color: #fff;
+}
+
+.holder a.jp-disabled, a.jp-disabled:hover {
+	color: #bbb;
+}
+
+.holder a.jp-current, a.jp-current:hover,
+.holder a.jp-disabled, a.jp-disabled:hover {
+	cursor: default; 
+	
+}
+
+.holder span { margin: 0 5px; }
+.jp-previous {background: url(../images/t_pre_10.png)no-repeat center !important;
+    width: 24px;
+    height: 24px;
+        display: inline-block;background-color: #f2f2f2 !important;}
