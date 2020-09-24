@@ -1,0 +1,3 @@
+jQuery(document).ready(function($){if($('.fcb-display').length>0){var open_time=$('.fcb-display .fcb-box').attr('open_time');setTimeout(function(){$('.fcb-display .fcb-title').trigger('click')},open_time*1000)}
+$('.fcb-display .fcb-title').on('click',function(){$('.fcb-display .fcb-box').slideToggle(function(){var timer=$('.fcb-display .fcb-box-content').attr('time_display');setTimeout(function(){$('.fcb-display .fcb-box .fcb-box-content-chat').show('mideum',function(){$('.fcb-display .fcb-box .fcb-loading').hide()})},timer*1000)})})
+$('.fcb-display .fcb-clode').on('click',function(){$('.fcb-display .fcb-title').trigger('click')})})
