@@ -1,0 +1,176 @@
+/*---------- footer css ----------*/
+/*footer*/
+.footer{ 
+  padding: 50px 0; 
+  background-color: $color-bg;
+  position: relative;
+      overflow: hidden;
+  .bg-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .box_logo_ft {
+    position: relative;
+    &:before {
+      content:'';
+      background: #fff;
+      width: 1px;
+      height: 130px;
+      position: absolute;
+      right: 15px;
+      top: 20px;
+    } 
+  }
+  .footer-left {
+    .footer-content{
+      p {
+        color: #fff
+      }
+      ul {
+        padding: 0;
+        margin: 0;
+        li {
+          color: #fff;
+          margin-bottom: 5px;
+		  list-style-type: none;
+          i {
+	    		width: 15px;
+          color: $color-secondary;
+			}
+          a {
+            color: #fff;
+          }
+          &:hover a {
+            text-decoration: none;
+          }
+        } 
+      }
+    } 
+  }
+  .footer-right {
+	    margin-right: 35px;
+	    .logo {
+		    margin-top: 30px;
+		}
+	}
+  .footer-center {
+    p {
+      color: #fff; 
+    }
+    input{
+    	height: 40px;
+    }
+    input.btn-send {
+	    background-color: $color-secondary;
+	    border: 1px solid #fff;
+	    margin: 1px;
+        color: #fff;
+		height: 38px !important;
+	}
+  }
+  .footer-label{
+    color: #fff; 
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  .footer_bottom {
+    p {
+      color: #fff;
+      margin-bottom: 0;
+      font-size: 12px;
+      float: right;
+      a {
+        color: #fff;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+.taibaogia {
+    width: 330px;
+    background-color: #0a4712;
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+    box-shadow: -1px 0px 1px 0px #5f5f5f;
+    margin-bottom: -311px;
+    transition: all 0.5s;
+    z-index: 999;
+    &.is-active{
+      margin-bottom: 0px;
+      button.btn-tai:after {
+        content:"\f078";
+      }
+    }
+}
+button.btn-tai {
+  width: 100%;
+  text-transform: uppercase;
+  background-color: #0a4712;
+  color: #fff;
+  border: none;
+  border-bottom: 1px solid #1d5625;
+  padding: 10px 0;
+  font-size: 16px;
+  &:after {
+    content:"\f077";
+    font-family: $font-awesome;
+    float: right;
+    margin-right: 15px;
+  }  
+}
+.form-dky-tai {
+  padding: 15px;
+  p{
+    color: #fff;
+  }
+  label{
+    color: #fff;
+    margin-top: 10px;
+  }
+  button.btn-get {
+    background-color: #b58018;
+    border: none;
+    width: 100%;
+    padding: 5px 0;
+    margin-top: 20px;
+    &:hover{
+      color: #fff;
+      background-color: #e4a62d;
+    }
+  }
+}
+/*end footer*/
+//footer responsive css
+@media (max-width: $screen-xxs-max){ 
+	.footer .footer-right .logo {
+	    width: 80%;
+	    margin: 30px auto;
+	}
+	.footer {
+	    padding: 35px 0;
+	}
+}
+@media (min-width: $screen-xs-min){
+
+
+}
+@media (min-width: $screen-sm-min){
+  .footer .footer-label {
+    font-size: 24px;
+}
+
+}
+@media (min-width: $screen-md-min){
+
+}
+@media (min-width: $screen-lg-min){
+
+}
+//end footer responsive css
+/*---------- end footer css ----------*/
