@@ -1204,3 +1204,16 @@ footer .fb-page{
 .henLkhaosat:hover{
 	background:#ff8347;
 }
+.boxGiaSon{
+		clear:both;
+		border:4px solid #ddd;
+		padding:10px;
+		margin:10px auto auto auto;
+		display:table;
+		text-align:center;
+		background:#ffff;
+	}
+.boxGiaSon strong,.boxGiaSon a{
+	color:rgb(225, 33, 33);
+	font-size:18px;
+}
